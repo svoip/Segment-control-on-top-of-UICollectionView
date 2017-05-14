@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>FLEX.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Segment-control-on-top-of-UICollectionView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SnapKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>68A07EF405FD9BCB32A62DB85FB63511</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8017C241983C66290E8D132AE5C8DE0E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>955A17DA507B2A3F6B5FF7C0CA7C8215</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B82E337A4B08696FF9EB6613A06FEAEE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

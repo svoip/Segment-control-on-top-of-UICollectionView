@@ -1,0 +1,6 @@
+framework module Pods_Segment_control_on_top_of_UICollectionView {
+  umbrella header "Pods-Segment-control-on-top-of-UICollectionView-umbrella.h"
+
+  export *
+  module * { export * }
+}
