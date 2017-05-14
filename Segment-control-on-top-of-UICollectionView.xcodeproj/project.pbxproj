@@ -17,6 +17,8 @@
 		7F012CF41EC6EFA500F341E3 /* SegmentDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F012CF01EC6EFA500F341E3 /* SegmentDelegate.swift */; };
 		7F012CF51EC6EFA500F341E3 /* Segment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F012CF11EC6EFA500F341E3 /* Segment.swift */; };
 		7F012CF81EC6F73500F341E3 /* SegmentCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F012CF71EC6F73500F341E3 /* SegmentCollectionViewCell.xib */; };
+		7F012CFC1EC8341F00F341E3 /* landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F012CFA1EC8341F00F341E3 /* landscape.png */; };
+		7F012CFD1EC8341F00F341E3 /* portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F012CFB1EC8341F00F341E3 /* portrait.png */; };
 		FC442FC88FCB62006A0838C7 /* Pods_Segment_control_on_top_of_UICollectionView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0602508DAA5A36BC4BAF148B /* Pods_Segment_control_on_top_of_UICollectionView.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +37,8 @@
 		7F012CF01EC6EFA500F341E3 /* SegmentDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentDelegate.swift; sourceTree = "<group>"; };
 		7F012CF11EC6EFA500F341E3 /* Segment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Segment.swift; sourceTree = "<group>"; };
 		7F012CF71EC6F73500F341E3 /* SegmentCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SegmentCollectionViewCell.xib; sourceTree = "<group>"; };
+		7F012CFA1EC8341F00F341E3 /* landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = landscape.png; sourceTree = "<group>"; };
+		7F012CFB1EC8341F00F341E3 /* portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = portrait.png; sourceTree = "<group>"; };
 		945938A7A6CFCB69D090C068 /* Pods-Segment-control-on-top-of-UICollectionView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Segment-control-on-top-of-UICollectionView.release.xcconfig"; path = "Pods/Target Support Files/Pods-Segment-control-on-top-of-UICollectionView/Pods-Segment-control-on-top-of-UICollectionView.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -79,6 +83,7 @@
 		7F012CDB1EC6EF8C00F341E3 /* Segment-control-on-top-of-UICollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				7F012CF91EC8341500F341E3 /* Resources */,
 				7F012CF61EC6F67200F341E3 /* Segment */,
 				7F012CDC1EC6EF8C00F341E3 /* AppDelegate.swift */,
 				7F012CDE1EC6EF8C00F341E3 /* ViewController.swift */,
@@ -100,6 +105,15 @@
 				7F012CF01EC6EFA500F341E3 /* SegmentDelegate.swift */,
 			);
 			name = Segment;
+			sourceTree = "<group>";
+		};
+		7F012CF91EC8341500F341E3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7F012CFA1EC8341F00F341E3 /* landscape.png */,
+				7F012CFB1EC8341F00F341E3 /* portrait.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		D751162B20196994C472EDC1 /* Pods */ = {
@@ -173,10 +187,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F012CFD1EC8341F00F341E3 /* portrait.png in Resources */,
 				7F012CF81EC6F73500F341E3 /* SegmentCollectionViewCell.xib in Resources */,
 				7F012CE71EC6EF8C00F341E3 /* LaunchScreen.storyboard in Resources */,
 				7F012CE41EC6EF8C00F341E3 /* Assets.xcassets in Resources */,
 				7F012CE21EC6EF8C00F341E3 /* Main.storyboard in Resources */,
+				7F012CFC1EC8341F00F341E3 /* landscape.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
