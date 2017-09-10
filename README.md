@@ -23,7 +23,7 @@ public static let position:Position = .center
 
 
 // 
-// Usage 
+// Usage 1
 // 
 
 let position:Position = .center
@@ -32,7 +32,22 @@ let mode:WidthDistributionMode = .equalSize
 ```
 
 
-
 ![alt text](Segment-control-on-top-of-UICollectionView/sep10_2.gif)
 
+
+
+```
+// 
+// Usage 2
+// 
+
+let position:Position = .left
+let mode:WidthDistributionMode = .wrapText
+
+
+
+```
+
+
+![alt text](Segment-control-on-top-of-UICollectionView/sep10_3.gif)
 

@@ -21,6 +21,7 @@
 		7F012D011EC838B000F341E3 /* landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F012D001EC838B000F341E3 /* landscape.png */; };
 		7FF8F9BB1F655CBA00354EF9 /* sep10_2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7FF8F9BA1F655CBA00354EF9 /* sep10_2.gif */; };
 		7FF8F9BF1F655F2700354EF9 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 7FF8F9BE1F655F2700354EF9 /* README.md */; };
+		7FF8F9C11F65611C00354EF9 /* sep10_3.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7FF8F9C01F65611C00354EF9 /* sep10_3.gif */; };
 		FC442FC88FCB62006A0838C7 /* Pods_Segment_control_on_top_of_UICollectionView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0602508DAA5A36BC4BAF148B /* Pods_Segment_control_on_top_of_UICollectionView.framework */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +44,7 @@
 		7F012D001EC838B000F341E3 /* landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = landscape.png; sourceTree = "<group>"; };
 		7FF8F9BA1F655CBA00354EF9 /* sep10_2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = sep10_2.gif; sourceTree = "<group>"; };
 		7FF8F9BE1F655F2700354EF9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		7FF8F9C01F65611C00354EF9 /* sep10_3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = sep10_3.gif; sourceTree = "<group>"; };
 		945938A7A6CFCB69D090C068 /* Pods-Segment-control-on-top-of-UICollectionView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Segment-control-on-top-of-UICollectionView.release.xcconfig"; path = "Pods/Target Support Files/Pods-Segment-control-on-top-of-UICollectionView/Pods-Segment-control-on-top-of-UICollectionView.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -118,6 +120,7 @@
 				7F012CFE1EC836D000F341E3 /* portrait.png */,
 				7F012D001EC838B000F341E3 /* landscape.png */,
 				7FF8F9BA1F655CBA00354EF9 /* sep10_2.gif */,
+				7FF8F9C01F65611C00354EF9 /* sep10_3.gif */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 			files = (
 				7F012CFF1EC836D000F341E3 /* portrait.png in Resources */,
 				7F012D011EC838B000F341E3 /* landscape.png in Resources */,
+				7FF8F9C11F65611C00354EF9 /* sep10_3.gif in Resources */,
 				7F012CF81EC6F73500F341E3 /* SegmentCollectionViewCell.xib in Resources */,
 				7F012CE71EC6EF8C00F341E3 /* LaunchScreen.storyboard in Resources */,
 				7FF8F9BB1F655CBA00354EF9 /* sep10_2.gif in Resources */,

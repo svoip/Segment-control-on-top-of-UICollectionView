@@ -24,7 +24,7 @@ public class Segment:NSObject {
         case equalSize
         case wrapText
     }
-    public static let mode:WidthDistributionMode = .equalSize
+    public static let mode:WidthDistributionMode = .wrapText
     
     //
     // How the container of the tabs should position itself horizontally
@@ -33,7 +33,7 @@ public class Segment:NSObject {
         case left
         case center
     }
-    public static let position:Position = .center
+    public static let position:Position = .left
     
     
     public static let tabNames = ["Animals", "Birds", "Plants", "Mountains", "Rivers"]
