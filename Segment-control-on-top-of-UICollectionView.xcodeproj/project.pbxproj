@@ -20,7 +20,7 @@
 		7F012CFF1EC836D000F341E3 /* portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F012CFE1EC836D000F341E3 /* portrait.png */; };
 		7F012D011EC838B000F341E3 /* landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F012D001EC838B000F341E3 /* landscape.png */; };
 		7FF8F9BB1F655CBA00354EF9 /* sep10_2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7FF8F9BA1F655CBA00354EF9 /* sep10_2.gif */; };
-		7FF8F9BD1F655E7100354EF9 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 7FF8F9BC1F655E7100354EF9 /* README.md */; };
+		7FF8F9BF1F655F2700354EF9 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 7FF8F9BE1F655F2700354EF9 /* README.md */; };
 		FC442FC88FCB62006A0838C7 /* Pods_Segment_control_on_top_of_UICollectionView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0602508DAA5A36BC4BAF148B /* Pods_Segment_control_on_top_of_UICollectionView.framework */; };
 /* End PBXBuildFile section */
 
@@ -42,7 +42,7 @@
 		7F012CFE1EC836D000F341E3 /* portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = portrait.png; sourceTree = "<group>"; };
 		7F012D001EC838B000F341E3 /* landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = landscape.png; sourceTree = "<group>"; };
 		7FF8F9BA1F655CBA00354EF9 /* sep10_2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = sep10_2.gif; sourceTree = "<group>"; };
-		7FF8F9BC1F655E7100354EF9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7FF8F9BE1F655F2700354EF9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		945938A7A6CFCB69D090C068 /* Pods-Segment-control-on-top-of-UICollectionView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Segment-control-on-top-of-UICollectionView.release.xcconfig"; path = "Pods/Target Support Files/Pods-Segment-control-on-top-of-UICollectionView/Pods-Segment-control-on-top-of-UICollectionView.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -87,7 +87,7 @@
 		7F012CDB1EC6EF8C00F341E3 /* Segment-control-on-top-of-UICollectionView */ = {
 			isa = PBXGroup;
 			children = (
-				7FF8F9BC1F655E7100354EF9 /* README.md */,
+				7FF8F9BE1F655F2700354EF9 /* README.md */,
 				7F012CF91EC8341500F341E3 /* Resources */,
 				7F012CF61EC6F67200F341E3 /* Segment */,
 				7F012CDC1EC6EF8C00F341E3 /* AppDelegate.swift */,
@@ -261,9 +261,9 @@
 				7F012CF31EC6EFA500F341E3 /* SegmentDataSource.swift in Sources */,
 				7F012CDF1EC6EF8C00F341E3 /* ViewController.swift in Sources */,
 				7F012CF51EC6EFA500F341E3 /* Segment.swift in Sources */,
+				7FF8F9BF1F655F2700354EF9 /* README.md in Sources */,
 				7F012CDD1EC6EF8C00F341E3 /* AppDelegate.swift in Sources */,
 				7F012CF41EC6EFA500F341E3 /* SegmentDelegate.swift in Sources */,
-				7FF8F9BD1F655E7100354EF9 /* README.md in Sources */,
 				7F012CF21EC6EFA500F341E3 /* SegmentCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
